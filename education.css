@@ -4,3 +4,12 @@ body{font-family: sans-serif;
         background-color: #B3E5FC;
         color: #D500F9;
         margin: 12pt;}
+h1{font-family: fantasy;
+        font-style: impact;
+        color: #000000 ;}
+h2{font-family: fantasy;
+    font-style: impact;
+    color: #5fef00 ;}
+h4{font-family: fantasy;
+    font-style: impact;
+    color: #be30ae;}
