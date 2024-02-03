@@ -15,3 +15,7 @@ h4{font-family: serif;
         font-style: georgia;
         color: #FFFFFF;
         background-color: #ff0000;}
+a:link{color: #fffb00;}
+a:visited{color: #EAEAEA}
+a:hover{text-decoration: underline;
+        color:#ff0000}
