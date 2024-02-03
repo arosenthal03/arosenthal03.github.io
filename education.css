@@ -14,9 +14,4 @@ h2{font-family: serif;
 h4{font-family: serif;
         font-style: georgia;
         color: #FFFFFF;
-        background-color: #ff69ba;}
-nav a:link{color: #d48dff;}
-nav a:visited{color: #490075}
-nav a:hover{text-decoration: underline;
-                color:#b338ff;}
-nav a:active{color: #7300ff}
+        background-color: #ff0000;}
