@@ -16,7 +16,7 @@ h4{font-family: serif;
         color: #FFFFFF;
         background-color: #ff69ba;}
 nav a:link{color: #d48dff;}
+nav a:visited{color: #490075}
 nav a:hover{text-decoration: underline;
                 color:#d48dff;}
-nav a:visited{color: #490075}
 nav a:active{color: #b500ff}
