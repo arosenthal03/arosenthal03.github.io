@@ -1,25 +1,28 @@
-function promptForName()
-    {var name = promt("Enter name below:");
-    var outputElement = document.getElementById("ouput");
-    outputElement.innerHTML = "Welcome, " + name + "to my portforlio!";}
+function promptForName() 
+    {var name = prompt("Please enter your name:");
+    var outputElement = document.getElementById("output");
+    outputElement.innerHTML = "Welcomr, " + name + "to my portfolio!";}
 
 function enlargeImage() 
     {var image = document.getElementById("myImage");
-    image.style.width = "200px";
-    image.style.height = "200xp";}
+    image.style.width = "200px"; 
+    image.style.height = "200px";}
 
-function resetImageSize()
-    {var image = document.getElementById("MyImage");
-    image.style.widt = "";
+function resetImageSize() 
+    {var image = document.getElementById("myImage");
+    image.style.width = "";
     image.style.height = "";}
 
-function handleMouseOut(element)
-    {element.style.backgroumdColor = "";}
+function handleMouseOver(element) 
+    {element.style.backgroundColor = "lightblue";}
 
- document.addEventListener("DOMContentLoaded", function() 
+function handleMouseOut(element) 
+    {element.style.backgroundColor = "";}
+
+document.addEventListener("DOMContentLoaded", function() 
     {var navItems = document.getElementsByClassName("nav-item");
     for (var i = 0; i < navItems.length; i++) 
         {navItems[i].addEventListener("mouseover", function() 
-            {handleMouseOver(this);});
+        {handleMouseOver(this);});
         navItems[i].addEventListener("mouseout", function() 
-            {handleMouseOut(this);});}});
+        {handleMouseOut(this);});}});
