@@ -5,6 +5,41 @@
     <title>My Personal Portfolio</title>
     <script src="lab5.js" defer></script>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e993ff;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        line-height: 1.6;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+</style>
 <body>
     <button onclick="promptForName()">Enter Name Below</button>
     <div id="output"></div>
