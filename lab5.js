@@ -1,1 +1,1 @@
-<button type="button" id="myButton">Click Me!</button>
+<button type="button">Click Me!</button>
