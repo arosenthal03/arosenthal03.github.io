@@ -1,7 +1,7 @@
 function promptForName() 
     {var name = prompt("Please enter your name:");
     var outputElement = document.getElementById("output");
-    outputElement.innerHTML = "Welcome to my portfolio, " + name;}
+    outputElement.innerHTML = "Welcome to my portfolio, " + name + "!";}
 
 function enlargeImage() 
     {var image = document.getElementById("myImage");
