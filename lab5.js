@@ -3,15 +3,8 @@ function promptForName()
     var outputElement = document.getElementById("output");
     outputElement.innerHTML = "Welcome to my portfolio, " + name + "!";}
 
-function enlargeImage() 
-    {var image = document.getElementById("myImage");
-    image.style.width = "200px"; 
-    image.style.height = "200px";}
-
-function resetImageSize() 
-    {var image = document.getElementById("myImage");
-    image.style.width = "";
-    image.style.height = "";}
+const myImage = document.getElementById('myImage');
+myImage.addEventListener('click', function () {this.classList.toggle('clicked')});
 
 function handleMouseOver(element) 
     {element.style.backgroundColor = "lightblue";}
