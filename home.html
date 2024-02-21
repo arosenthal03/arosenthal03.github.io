@@ -31,16 +31,14 @@
     <button onclick="promptForName()">Enter your name</button>
     <div id="output"></div>
 
-    <nav>
-        <ul>
-            <li class="nav-item"><a href="education.html">Education</a></li>
-            <li class="nav-item"><a href="experience.html">Experience</a></li>
-            <li class="nav-item" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Menu Item 1</li>
-            <li class="nav-item" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Menu Item 2</li>
-            <li class="nav-item" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Menu Item 3</li>
-        </ul>
-    </nav>
-
+    <div class="dropdown">
+        <button onclick="myFucntion()" class=""dropbtn">Dropdown</button>
+        <div id="MyDropdown" class="dropdown-content">
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experienvce</a>
+        </div>
+    </div>
+    
     <img id="myImage" src="photo.jpg.jpg" alt="My Photo" onclick="enlargeImage()" ondblclick="resetImageSize()">
 
     <p> Welcome to my personal portfolio! <br>
