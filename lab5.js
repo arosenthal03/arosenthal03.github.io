@@ -5,13 +5,13 @@ function promptForName()
 
 function enlargeImage() 
     {var image = document.getElementById("myImage");
-    image.style.width = "200px"; 
-    image.style.height = "200px";}
+    image.style.width = ""; 
+    image.style.height = "";}
 
 function resetImageSize() 
     {var image = document.getElementById("myImage");
-    image.style.width = "";
-    image.style.height = "";}
+    image.style.width = "100px";
+    image.style.height = "100px";}
 
 function handleMouseOver(element) 
     {element.style.backgroundColor = "lightblue";}
