@@ -8,6 +8,10 @@ function enlargeImage()
     image.style.width = "200px"; 
     image.style.height = "200px";}
 
+document.addEventListener("DOMContentLoaded", function()
+    {var image = documnet.getElementByID("myImage");
+    image.addEventListener("click", enlargeImage)});
+
 function resetImageSize() 
     {var image = document.getElementById("myImage");
     image.style.width = "";
