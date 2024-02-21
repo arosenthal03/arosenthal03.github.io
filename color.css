@@ -20,3 +20,6 @@ ul {list-style-type: none;
 li {margin-bottom: 10px;}
 nav ul li {display: inline;
                 margin-right:10px;}
+#myImage {width: 200px;
+        transition: width 0.3s;}
+#myImage.clicked {width: 300px;}
