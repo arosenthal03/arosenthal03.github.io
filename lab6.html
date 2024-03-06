@@ -28,20 +28,20 @@
         The cat was playing in the garden.
         </textarea>
         </p>
+</form>
 <!--Input Data Access-->
 window.onload=function(){
-var user = document.getElementById("username");    console.log(user.value); // the user input value.
-console.log(user.type); // the type of the form element.
-}    
-<!--Oninput Handler-->
-<input type="text" id="myinput" oninput="inputHandler()">
-<p id="emptyParagraph">Dynamically change on webpage input without
-prompt</p>
-function inputHandler()
-{
-var myvalue = document.getElementById("myinput").value;
-document.getElementById("emptyParagraph").innerHTML = "Your Input:
-" + myvalue;
-}
-</form>
+    var user = document.getElementById("username");    console.log(user.value); // the user input value.
+    console.log(user.type); // the type of the form element.
+    }    
+    <!--Oninput Handler-->
+    <input type="text" id="myinput" oninput="inputHandler()">
+    <p id="emptyParagraph">Dynamically change on webpage input without
+    prompt</p>
+    function inputHandler()
+    {
+    var myvalue = document.getElementById("myinput").value;
+    document.getElementById("emptyParagraph").innerHTML = "Your Input:
+    " + myvalue;
+    }
 </html>
