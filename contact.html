@@ -6,6 +6,7 @@
     <title>Contact</title>
     <link href="color.css" rel="stylesheet">
     <script src="lab5.js" defer></script>
+    <script src="form.js" defer></script>
 </head>
 <body>
     <nav>
@@ -26,7 +27,38 @@
 must include radio buttions, check 
 boxes,a single text field and a 
 multiple text field.-->
+<form id="contactform">
+    <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
 
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="Coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="reading" name="interest" value="Reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="traveling" name="interest" value="Traveling">
+        <label for="traveling">Traveling</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="button" value="Clear/Reset" onclick="clearForm()">
+    </form>
 
 <!--A functioning set 
 of "Submit" and "Clear/Reset" buttons.
