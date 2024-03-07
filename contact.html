@@ -22,16 +22,32 @@
 <header>
     <h1>Contact Form</h1>
 </header>
-<!--need 8 distinct form elements
-must include radio buttions, check 
-boxes,a single text field and a 
-multiple text field.-->
-
+<!--need 8 distinct form-->
+<!--1. What is your name? = fieldset-->
+<!--2. What is your email address? = fieldset-->
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+<!--3. How did you hear about my portfolio website? = multi select-->
+<!--4. What is the purpose of your vist today? = checkbox-->
+<!--5. Are you intersted in hiring me for a project? = radio buttons-->
+<!--6. Do you have any specific feedback or suggestions for improving my portfolio? = multiple text field-->
+<!--7. Can I add you to my mailing list for updates and new projects? = select-->
+<!--8. Would you be interested in collaborating on future projects? = data list-->
+<!--9. What type of projects are you most interested in seeking in my portfolio? = multiple text area-->
+<!--10. Is there anything else you'd like to share or ask? = multiple text field-->
+</form>
 <!--A functioning set 
 of "Submit" and "Clear/Reset" buttons.
 the "submit" button should store the 
 input data into the local storage and
 the "clear" button should reset all 
-input fields-->
+input fields = button-->
 
 <html>
