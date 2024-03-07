@@ -1,19 +1,24 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementById("myform");
-    const submitBtn = document.getElementById("submitBtn");
-    const clearBtn = document.getElementById("clearBtn");
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('myform');
+    const submitBtn = document.getElementById('submitBtn');
   
-function handleSubmit(event) {
-    event.preventDefault(); 
-    console.log("Form submitted!");
-}
+    submitBtn.addEventListener('click', function () {
+      const formData = {
+        name: form.elements.name.value,
+        email: form.elements.email.value,
+        message: form.elements.message.value
+      };
   
-function handleClear() {
-    form.reset(); 
-    console.log("Form cleared!");
-}
+      localStorage.setItem('formData', JSON.stringify(formData));
   
-submitBtn.addEventListener("click", handleSubmit);
+      alert('Form submitted successfully!');
+    });
   
-clearBtn.addEventListener("click", handleClear);
-});
+    const storedFormData = JSON.parse(localStorage.getItem('formData'));
+    if (storedFormData) {
+      form.elements.name.value = storedFormData.name;
+      form.elements.email.value = storedFormData.email;
+      form.elements.message.value = storedFormData.message;
+    }
+  });
+  
