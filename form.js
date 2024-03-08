@@ -1,25 +1,21 @@
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("myform");
 
-    // Function to handle form submission
     function handleSubmit(event) {
-        event.preventDefault(); // Prevent default form submission behavior
-        const formData = new FormData(form); // Get form data
-        const formDataObject = Object.fromEntries(formData.entries()); // Convert FormData to object
-        localStorage.setItem("formData", JSON.stringify(formDataObject)); // Store form data in local storage
+        event.preventDefault(); 
+        const formData = new FormData(form); 
+        const formDataObject = Object.fromEntries(formData.entries()); 
+        localStorage.setItem("formData", JSON.stringify(formDataObject)); 
         alert("Form submitted successfully!");
-        form.reset(); // Optionally reset the form after submission
+        form.reset(); 
     }
 
-    // Event listener for form submission
     form.addEventListener("submit", handleSubmit);
 
-    // Function to retrieve form data from local storage
     function retrieveFormData() {
-        const storedFormData = localStorage.getItem("formData"); // Get form data from local storage
+        const storedFormData = localStorage.getItem("formData"); 
         if (storedFormData) {
-            const parsedFormData = JSON.parse(storedFormData); // Parse stored form data
-            // Set form fields with retrieved data
+            const parsedFormData = JSON.parse(storedFormData); 
             for (const key in parsedFormData) {
                 if (Object.hasOwnProperty.call(parsedFormData, key)) {
                     const element = form.elements[key];
@@ -31,6 +27,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Retrieve form data from local storage when the page loads
     retrieveFormData();
 });
