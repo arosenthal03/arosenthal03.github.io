@@ -92,4 +92,11 @@ input[type="reset"]:hover {
     background-color: #0056b3; 
 }
 
+.checkbox-group input[type="checkbox"] {
+    display: inline-block;
+}
 
+.checkbox-group label {
+    display: inline-block;
+    vertical-align: middle;
+}
