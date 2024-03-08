@@ -1,14 +1,7 @@
-// Function to reset the form
-function clearForm() {
-    document.getElementById('myform').reset();
-  }
-  
-  document.addEventListener('DOMContentLoaded', function () {
-    const clearBtn = document.getElementById('clearBtn');
-  
-    // Add click event listener to clear/reset button
-    clearBtn.addEventListener('click', function () {
-      // Call the clearForm function to reset the form
-      clearForm();
-    });
-  });  
+document.addEventListener("DOMContentLoaded", function() 
+    {var navItems = document.getElementsByClassName("nav-item");
+    for (var i = 0; i < navItems.length; i++) 
+        {navItems[i].addEventListener("mouseover", function() 
+        {handleMouseOver(this);});
+        navItems[i].addEventListener("mouseout", function() 
+        {handleMouseOut(this);});}});
