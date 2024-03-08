@@ -94,9 +94,12 @@ input[type="reset"]:hover {
 
 .checkbox-group input[type="checkbox"] {
     display: inline-block;
+    vertical-align: middle; 
+    margin-right: 10px; 
 }
 
 .checkbox-group label {
     display: inline-block;
     vertical-align: middle;
+    margin-bottom: 5px;
 }
