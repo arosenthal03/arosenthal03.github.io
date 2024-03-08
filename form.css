@@ -34,7 +34,7 @@ label {display: block;
 
 input[type="text"],
 select,
-textarea {width: 100%;
+textarea {width: calc(100% - 22px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -53,3 +53,11 @@ input[type="reset"] {padding: 10px 20px;
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {background-color: #422aae;}
+
+.checkbox-label,
+.radio-label {display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;}
+
+.checkbox-input,
+.radio-input {vertical-align: middle;}
