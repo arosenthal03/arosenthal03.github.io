@@ -13,12 +13,12 @@ header {background-color: #6347ff;
     margin: 20px auto;
     padding: 20px;
     background-color: #e993ff;
-    border-radius: 7px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
 
 h1 {margin-top: 0;}
 
-
+p {line-height: 1.6;}
 
 ul {list-style-type: none;padding: 0;}
 
@@ -34,11 +34,10 @@ label {display: block;
 
 input[type="text"],
 select,
-textarea {width: calc(100% - 22px);
+textarea {width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;}
+    border-radius: 5px;}
 
 textarea {resize: vertical;}
 
@@ -52,12 +51,5 @@ input[type="reset"] {padding: 10px 20px;
     transition: background-color 0.3s;}
 
 input[type="submit"]:hover,
-input[type="reset"]:hover {background-color: #422aae;}
-
-.checkbox-label,
-.radio-label {display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;}
-
-.checkbox-input,
-.radio-input {vertical-align: middle;}
+input[type="reset"]:hover {
+    background-color: #422aae;}
