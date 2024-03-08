@@ -71,9 +71,10 @@
 <p>Can I add you to my mailing list for updates and new projects?</p>
 <label for="option">Choose an option:</label>
 <select id="option" name="option">
+    <option value="blank"></option>
     <option value="yes">Yes</option>
     <option value="no">No</option>
-  </select>
+</select>
 <!--8. Would you be interested in collaborating on future projects? = data list-->
 <p>Would you be interested in collaborating on future projects?</p>
 <input list="collab" name="collab">
@@ -93,5 +94,6 @@
 <!--A functioning set 
 of "Submit" and "Clear/Reset" buttons.-->
 <input id="submitBtn" type="Submit" value="Submit">
+<input id="submitBtn" onclick="alert('Form succesfully submitted!')">
 <input type="Clear/Reset">
 <html>
