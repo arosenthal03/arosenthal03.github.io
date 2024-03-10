@@ -49,26 +49,26 @@
 <!--4. What is the purpose of your vist today? = checkbox-->
 <p>What is the purpose of your vist today (Check all that apply)?</p>
 <div class="checkbox-group">
-<input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
-  <label for="checkbox1">Looking to hire</label><br>
-  <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
-  <label for="checkbox2">Looking at work experience</label><br>
-  <input type="checkbox" id="checkbox3" name="checkbox3" value="value3">
-  <label for="checkbox3">Looking at schooling history</label><br>
-  <input type="checkbox" id="checkbox4" name="checkbox4" value="value4">
-  <label for="checkbox4">Looking at awards and certifications</label><br>
-  <input type="checkbox" id="checkbox5" name="checkbox5" value="value5">
-  <label for="checkbox5">Other</label><br>
+<input type="checkbox" id="hire" name="hire" value="value1">
+  <label for="hire">Looking to hire</label><br>
+  <input type="checkbox" id="work" name="work" value="value2">
+  <label for="work">Looking at work experience</label><br>
+  <input type="checkbox" id="schooling" name="schooling" value="value3">
+  <label for="schooling">Looking at schooling history</label><br>
+  <input type="checkbox" id="awards" name="awards" value="value4">
+  <label for="awards">Looking at awards and certifications</label><br>
+  <input type="checkbox" id="other" name="other" value="value5">
+  <label for="other">Other</label><br>
 </div>
 <!--5. Are you intersted in hiring me for a project? = radio buttons-->
 <p>Are you intersted in hiring me for a project?</p>
 <div class="radio-group">
-<input type="radio" id="option1" name="options" value="option1">
-<label for="option1">Yes</label><br>
-<input type="radio" id="option2" name="options" value="option2">
-<label for="option2">No</label><br>
-<input type="radio" id="option3" name="options" value="option3">
-<label for="option3">In the near future</label>
+<input type="radio" id="yesProject" name="yesProject" value="option1">
+<label for="yesProject">Yes</label><br>
+<input type="radio" id="noProject" name="noProject" value="option2">
+<label for="noProject">No</label><br>
+<input type="radio" id="futureProject" name="futureProject" value="option3">
+<label for="futureProject">In the near future</label>
 </div>
 <!--6. Do you have any specific feedback or suggestions for improving my portfolio? = multiple text field-->
 <p>Do you have any specific feedback or suggestions for improving my portfolio?</p>
@@ -79,8 +79,8 @@
 <label for="option">Choose an option:</label>
 <select id="option" name="option">
     <option value="blank"></option>
-    <option value="yes">Yes</option>
-    <option value="no">No</option>
+    <option value="yesMailList">Yes</option>
+    <option value="noMailList">No</option>
 </select>
 <!--8. Would you be interested in collaborating on future projects? = data list-->
 <p>Would you be interested in collaborating on future projects?</p>
@@ -96,7 +96,7 @@
 </textarea>
 <!--10. Is there anything else you'd like to share or ask? = multiple text field-->
 <p>Is there anything else you'd like to share or ask?</p>
-<textarea name="ask" rows="10" cols="30">
+<textarea name="shareOrAsk" rows="10" cols="30">
 </textarea>
 <!--A functioning set 
 of "Submit" and "Clear/Reset" buttons.-->
