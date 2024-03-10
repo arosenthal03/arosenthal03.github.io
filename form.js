@@ -12,9 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         localStorage.setItem("formData", JSON.stringify(formObject));
-
-        alert('Form submitted succesfully!');
-
-        form.reset();
     });
 });
