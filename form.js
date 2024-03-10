@@ -13,4 +13,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         localStorage.setItem("formData", JSON.stringify(formObject));
     });
+
+
+    const savedFormData = localStorage.getItem("formData");
+    if (savedFormData){
+        const formObject = JSON.parse(savedFormData);
+        Object.keys(formObject).forEach(key => {
+            const input = form.querySelector('[name="${key}"]');
+            if (input) {
+                input.value = formObject[key];
+            }
+        });
+    }   
 });
