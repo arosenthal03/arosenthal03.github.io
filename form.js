@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         localStorage.setItem("formData", JSON.stringify(formObject));
+
+        form.reset();
     });
 
 
