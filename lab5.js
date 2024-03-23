@@ -20,7 +20,4 @@ document.addEventListener("DOMContentLoaded", function()
         navItems[i].addEventListener("mouseout", function() 
         {handleMouseOut(this);});}});
 
-function setColorMode(mode) {
-    document.body.className = mode;
-}
         
