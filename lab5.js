@@ -19,6 +19,3 @@ document.addEventListener("DOMContentLoaded", function()
         {handleMouseOver(this);});
         navItems[i].addEventListener("mouseout", function() 
         {handleMouseOut(this);});}});
-function changeColor(color) {
-    document.body.style.backgroundColor = color;
-}
