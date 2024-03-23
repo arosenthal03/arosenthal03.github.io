@@ -23,3 +23,32 @@ nav ul li {display: inline;
 #myImage {width: 200px;
         transition: width 0.3s;}
 #myImage.clicked {width: 300px;}
+
+#color-modes {
+        margin-top: 20px;
+    }
+    
+button {
+padding: 10px 20px;
+margin: 0 10px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+}
+    
+button:focus {
+outline: none;
+}
+    
+/* Example styles for color-blind-friendly modes */
+.protanopia #content {
+background-color: #f0f0f0; /* Example color for protanopia mode */
+}
+    
+.deuteranopia #content {
+background-color: #e0e0e0; /* Example color for deuteranopia mode */
+}
+    
+.tritanopia #content {
+background-color: #d0d0d0; /* Example color for tritanopia mode */
+}
