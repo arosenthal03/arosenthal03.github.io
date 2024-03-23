@@ -40,7 +40,10 @@ button:focus {
 outline: none;
 }
     
-/* Example styles for color-blind-friendly modes */
+#content {
+background-color: #ffffff; /* Default background color */
+}
+    
 .protanopia #content {
 background-color: #f0f0f0; /* Example color for protanopia mode */
 }
