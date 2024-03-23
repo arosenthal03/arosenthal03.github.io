@@ -36,14 +36,15 @@ button:focus {
     outline: none;
 }
 
+/* Example styles for color-blind-friendly modes */
 .protanopia #content {
-    background-color: #f0f0f0; 
+        background-color: #f0f0f0; /* Example color for protanopia mode */
 }
-
+    
 .deuteranopia #content {
-    background-color: #e0e0e0;
+        background-color: #e0e0e0; /* Example color for deuteranopia mode */
 }
-
+    
 .tritanopia #content {
-    background-color: #d0d0d0; 
+        background-color: #d0d0d0; /* Example color for tritanopia mode */
 }
