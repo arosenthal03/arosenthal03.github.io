@@ -42,21 +42,15 @@ body.tritanopia {
         color: black; /* Adjusted text color */
     }   
 
-    body {
+body {
         font-family: Arial, sans-serif;
-    }
+}
     
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    .controls {
+.controls {
         margin-top: 20px;
-    }
+}
     
-    p {
+p {
         font-size: 16px;
-    }
+}
     
