@@ -23,27 +23,4 @@ nav ul li {display: inline;
 #myImage {width: 200px;
         transition: width 0.3s;}
 #myImage.clicked {width: 300px;}
-/* Normal Color Scheme */
-body {
-        background-color: white;
-        color: black;
-    }
-    
-    /* Protanopia Color Scheme */
-    body.protanopia {
-        background-color: #f5f5f5; /* Adjusted background color */
-        color: black; /* Adjusted text color */
-    }
-    
-    /* Deuteranopia Color Scheme */
-    body.deuteranopia {
-        background-color: #f0f0f0; /* Adjusted background color */
-        color: black; /* Adjusted text color */
-    }
-    
-    /* Tritanopia Color Scheme */
-    body.tritanopia {
-        background-color: #e5e5e5; /* Adjusted background color */
-        color: black; /* Adjusted text color */
-    }
     
