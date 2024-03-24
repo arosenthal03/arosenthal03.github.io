@@ -6,3 +6,11 @@ function changeFontSize(action) {
         body.classList.remove('large-font');
     }
 }
+function changeColorScheme(scheme) {
+    var body = document.querySelector('body');
+    if (scheme === 'default') {
+        body.classList.remove('high-contrast');
+    } else if (scheme === 'high-contrast') {
+        body.classList.add('high-contrast');
+    }
+}
