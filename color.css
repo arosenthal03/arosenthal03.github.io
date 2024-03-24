@@ -22,5 +22,4 @@ nav ul li {display: inline;
                 margin-right:10px;}
 #myImage {width: 200px;
         transition: width 0.3s;}
-#myImage.clicked {width: 300px;}
-    
+#myImage.clicked {width: 300px;}    
