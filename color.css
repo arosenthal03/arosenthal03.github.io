@@ -23,22 +23,3 @@ nav ul li {display: inline;
 #myImage {width: 200px;
         transition: width 0.3s;}
 #myImage.clicked {width: 300px;}
-body {
-        font-size: 16px; /* Default font size */
-    }
-    
-    .large-font {
-        font-size: 20px; /* Large font size */
-    }
-    /* Default color scheme */
-    body {
-        color: black;
-        background-color: white;
-    }
-    
-    /* High contrast color scheme */
-    .high-contrast {
-        color: white;
-        background-color: black;
-    }
-    
