@@ -35,3 +35,20 @@ function setDeuteranopia() {
 function setTritanopia() {
     document.body.className = 'tritanopia';
 }
+
+function changeFontSize(action) {
+    var p = document.querySelector('p');
+    var computedStyle = window.getComputedStyle(p);
+    var currentFontSize = parseFloat(computedStyle.getPropertyValue('font-size'));
+
+    if (action === 'increase') {
+        p.style.fontSize = (currentFontSize + 2) + 'px';
+    } else if (action === 'decrease') {
+        p.style.fontSize = (currentFontSize - 2) + 'px';
+    }
+}
+
+function resetFontSize() {
+    var p = document.querySelector('p');
+    p.style.fontSize = '16px';
+}
