@@ -41,3 +41,22 @@ body.tritanopia {
         background-color: #e5e5e5; /* Adjusted background color */
         color: black; /* Adjusted text color */
     }   
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .controls {
+        margin-top: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
