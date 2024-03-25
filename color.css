@@ -27,18 +27,21 @@ nav ul li {display: inline;
 /* Protanopia Color Scheme */
 body.protanopia {
         background-color: #f5f5f5; /* Adjusted background color */
+        container:#f5f5f5;
         color: black; /* Adjusted text color */
     }
     
     /* Deuteranopia Color Scheme */
 body.deuteranopia {
         background-color: #f0f0f0; /* Adjusted background color */
+        container: #f0f0f0;
         color: black; /* Adjusted text color */
     }
     
     /* Tritanopia Color Scheme */
 body.tritanopia {
         background-color: #e5e5e5; /* Adjusted background color */
+        container:#e5e5e5;
         color: black; /* Adjusted text color */
     }   
 
